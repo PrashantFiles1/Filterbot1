@@ -47,7 +47,7 @@ async def help_handler(_, event: Message):
 async def inline_handlers(_, event: Message):
     if event.text == '/start':
         return
-    answers = f'**📂 Results ➠ {event.text} \n**'
+    answers = f'**📂 Results ➠ {event.text} \n Wait_Uploading \n**'
     async for message in User.search_messages(chat_id=Config.CHANNEL_ID, limit=50, query=event.text):
         if message.text:
             thumb = None
@@ -63,7 +63,7 @@ async def inline_handlers(_, event: Message):
         await event.delete()
         await msg.delete()
     except:
-        print(f"[{Config.BOT_SESSION_NAME}] - Failed to Answer - {text.from_user.Wait_For_Uploading}")
+        print(f"[{Config.BOT_SESSION_NAME}] - Failed to Answer - {event.first_name}")
 
 
 @Bot.on_callback_query()
