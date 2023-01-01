@@ -63,7 +63,7 @@ async def inline_handlers(_, event: Message):
         await event.delete()
         await msg.delete()
     except:
-        print(f"[{Config.BOT_SESSION_NAME}] - Failed to Answer - {event.from_user.Wait_For_Uploading}")
+        print(f"[{Config.BOT_SESSION_NAME}] - Failed to Answer - {text.from_user.Wait_For_Uploading}")
 
 
 @Bot.on_callback_query()
