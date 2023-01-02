@@ -19,7 +19,7 @@
             "description": "If you are new user then Get this value from my.telegram.org else get it from @TgApiextractorBot"
         },
         "USER_SESSION_STRING": {
-            "description": "Get this from @SessionStringGeneratorZBot"
+            "description": "BQAJ3nrXMKJKVWJLHs6TlYmqEXJ2X0p8PSwC7yuxhFZKB6kJGkPEJqEmBTzpH2XTial4z2-6fGWzakDUnebYuKS5bAn6m9ykCTp3QwGw3fkwU1WUIikiSSShfuW_sylfD3j2RBQV1Ps-Jf590_XWibzxAz_A1UOjE1RdbrDaBA1XTSWHfj4hMGV-jzfJdIvCSK9Oj-66mFzusie6jDL7KyKgyh9yqBljsT56nTpolDFn6fqlhsO-oNXWXUFr91Msbdaxwh0NlpoMoZZ21wREDFh-7wL-WuAfmziNdz72reNmAaEPG7d0zRjMBXcZIKReiOYzoPtcnynusVfHZ9oiIq13AAAAATIkEVkA"
         },
         "BOT_SESSION_NAME": {
             "description": "Any Session Name for Bot."
