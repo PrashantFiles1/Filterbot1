@@ -24,7 +24,7 @@ User = Client(
 
 @Bot.on_message(filters.private & filters.command("start"))
 async def start_handler(_, event: Message):
-	await event.reply_photo("https://te.legra.ph/file/cf83aa80a7a4e4a443e6c.jpg",
+	await event.reply_photo("https://te.legra.ph/file/a85d7a62a0f18de6dc562.jpg",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
                                     [InlineKeyboardButton("🔺 Adult Channels 🔺", url="https://t.me/SVBackup")],
