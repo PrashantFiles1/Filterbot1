@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://te.legra.ph/file/cf83aa80a7a4e4a443e6c.jpg" alt="Prashant Links BOT  logo">
+  <img src="https://te.legra.ph/file/a85d7a62a0f18de6dc562.jpg" alt="Prashant Links BOT  logo">
 </p>
 <h1 align="center">
   <b> Prashant-Links_BOT </b>
